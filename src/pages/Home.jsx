@@ -18,7 +18,7 @@ function Home() {
 						I’m a Computer Science
 						and Graphic Design grad
 						from University of 
-						Wisconsin-Madison
+						Wisconsin-Madison 
 					</p>
 				</Col>
 				<Col style={{background:'#fdf3e3'}}>
