@@ -1,8 +1,5 @@
 #root {
   max-width: 100%;
-  text-align: center;
-}
-
-h1 {
-  letter-spacing: -2px;
+  min-height: 100vh;
+  background-color: #fdf3e3;
 }

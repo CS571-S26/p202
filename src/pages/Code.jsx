@@ -1,4 +1,4 @@
-function Photography() {
+function Code() {
 
 	return <>
 		<div>
@@ -6,4 +6,4 @@ function Photography() {
 		</div>
 	</>
 }
-export default Photography
+export default Code

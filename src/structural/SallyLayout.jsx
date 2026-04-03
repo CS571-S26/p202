@@ -1,25 +1,49 @@
-import { Container, Nav, Navbar, NavDropdown, Dropdown, NavItem, NavLink } from "react-bootstrap";
-import { Link, Outlet } from "react-router";
-import Photography from "../pages/Photography";
+import { Container, Col, Row, Nav, Navbar, Button } from "react-bootstrap";
+import { Link, Outlet } from "react-router-dom";
+import './App.css'
+import crest from '../assets/Crest.png'
 
-import SallyContext from "../contexts/SallyContext";
-
-function BadgerLayout(props) {
+function SallyLayout(props) {
 
     return (
         <div>
-            <Navbar bg="dark" variant="dark">
-                <Container>
-                    <Nav className="me-auto">
-                        <Nav.Link as={Link} to="/">Home</Nav.Link>
-						 <Nav.Link as={Link} to="/photography">Photography</Nav.Link>
+            <Navbar className="navbar" sticky="top">
+                 <Navbar.Brand as={Link} to="/">
+                    <img src={crest} 
+                        alt='home sparkle crest' 
+                        style={{width:60, 
+                            height:60, 
+                            marginLeft: 10, 
+                            marginTop: -10, 
+                            marginBottom: -10}} />
+                    </Navbar.Brand>
+                    <Nav className="ms-auto" style={{ marginRight: '10px' }}>
+
+                        <Button as={Link} to="/code" variant="outline-light" className="me-2">
+                        code
+                        </Button>
+
+                        <Button as={Link} to="/design" variant="outline-light" className="me-2">
+                        design
+                        </Button>
+
+                        <Button as={Link} to="/photography" variant="outline-light" className="me-2">
+                        photo
+                        </Button>
+
+                        <Button as={Link} to="/*" variant="outline-light" className="me-2">
+                        more
+                        </Button>
                     </Nav>
-                </Container>
             </Navbar>
-            <div style={{ margin: "1rem" }}>
-            </div>
+            <Outlet/>
+            <Container fluid>
+                <Row style={{background:'#be1e2d', verticalAlign:'bottom'}}>
+                    <p>footer</p>
+                </Row>
+            </Container>
         </div>
     );
 }
 
-export default BadgerLayout;
+export default SallyLayout;
