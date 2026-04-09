@@ -2,7 +2,7 @@ function Code() {
 
 	return <>
 		<div>
-			<p>test</p>
+			<p style={{margin:15}}>test</p>
 		</div>
 	</>
 }

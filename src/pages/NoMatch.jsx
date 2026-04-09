@@ -1,6 +1,6 @@
 function NoMatch() {
 	return <>
-		<h1>404</h1>
+		<p style={{margin:15}}>Work in progress</p>
 	</>
 }
 export default NoMatch
