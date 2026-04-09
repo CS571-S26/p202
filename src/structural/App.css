@@ -9,6 +9,7 @@ body {
 
 .navbar {
   border-bottom: 25px solid #be1e2d;
+  background-color: #fdf3e3;
 }
 
 .navbar .btn {

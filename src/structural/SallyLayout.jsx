@@ -1,4 +1,4 @@
-import { Container, Col, Row, Nav, Navbar, Button } from "react-bootstrap";
+import { Container, Col, Row, Nav, Navbar, Button, Form } from "react-bootstrap";
 import { Link, Outlet } from "react-router-dom";
 import './App.css'
 import crest from '../assets/Crest.png'
@@ -39,7 +39,20 @@ function SallyLayout(props) {
             <Outlet/>
             <Container fluid>
                 <Row style={{background:'#be1e2d', verticalAlign:'bottom'}}>
-                    <p>footer</p>
+                    <Col style={{margin:20}}>
+                    <p style={{color:'#fdf3e3'}}>Let's Chat!</p>
+                    <Form>
+                        <Form.Label htmlFor="name">Name</Form.Label>
+                        <Form.Control id="name"></Form.Control>
+                        <Form.Label htmlFor="email">Email</Form.Label>
+                        <Form.Control id="email"></Form.Control>
+                        <Form.Label htmlFor="message">Message</Form.Label>
+                        <Form.Control id="message"></Form.Control>
+                    </Form>
+                    <Button style={{marginTop: 20}}>
+                        Submit
+                    </Button>
+                    </Col>
                 </Row>
             </Container>
         </div>

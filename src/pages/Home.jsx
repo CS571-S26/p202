@@ -14,7 +14,7 @@ function Home() {
 						alt="Hello I'm Sal" 
 						style={{ width: "100%" }}
 					/>
-					<p style={{marginLeft:40, marginTop:-50,fontSize:40, lineHeight:-10}}> 
+					<p style={{marginLeft:40, marginTop:'-4vw', marginBottom:40, fontSize:'3.5vw', lineHeight:1.2}}> 
 						I’m a Computer Science
 						and Graphic Design grad
 						from University of 
