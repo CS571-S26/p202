@@ -18,6 +18,9 @@ function SallyLayout(props) {
                             marginBottom: -10}} />
                     </Navbar.Brand>
                     <Nav className="ms-auto" style={{ marginRight: '10px' }}>
+                        <Button as={Link} to="/" variant="outline-light" className="me-2">
+                        home
+                        </Button>
 
                         <Button as={Link} to="/code" variant="outline-light" className="me-2">
                         code
