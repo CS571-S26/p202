@@ -1,0 +1,10 @@
+.photo-col {
+  margin: 2vw;
+}
+.photo-square {
+  width: 288px; /* 18rem */
+  height: 288px;
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+  border-radius: 20px 20px 0 0;
+}
