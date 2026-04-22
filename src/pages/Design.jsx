@@ -1,4 +1,4 @@
-import { Card, Button, Row, Col, Container } from 'react-bootstrap';
+import { Card, Row, Col, Container } from 'react-bootstrap';
 import './Pages.css';
 import designdata from "../designdata.json";
 
@@ -8,7 +8,7 @@ function Design() {
 			<Row>
 				{designdata.map(design => (
 					<Col xs={6} md={4} lg={3} key={design.id}>
-					<Card className="card-style">
+					<Card className="card-style" >
 						<Card.Img src={design.cover} className="design-photo" />
 						<Card.Body>
 						<Card.Title>{design.title}</Card.Title>

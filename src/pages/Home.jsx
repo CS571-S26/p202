@@ -23,7 +23,7 @@ function Home() {
 				<Col style={{marginLeft:35}}>
 					<img 
 						src={salImg} 
-						alt="Hello I'm Sal" 
+						alt="Animated Picture of Sally with sparkles" 
 						style={{ width: "100%" }}
 					/>
 					<p style={{marginLeft:40, marginTop:'-2vw', fontSize:'2.4vw', lineHeight:1.2}}> 
@@ -53,9 +53,6 @@ function Home() {
 				</Col>
 			</Row>
 		</Container>
-			
-		
-		<div className="grain"></div>
 	</>
 }
 

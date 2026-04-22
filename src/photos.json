@@ -3,7 +3,12 @@
     "id": 1,
     "title": "Bella, 2024",
     "description": "Portrait session in natural light",
-    "cover": "/p202/photos/bella1.jpg"
+    "cover": "/p202/photos/bella1.jpg",
+	"carousel": [
+      "/p202/photos/bella1.jpg",
+      "/p202/photos/bella2.jpg",
+      "/p202/photos/bella3.jpg"
+    ]
   },
   {
     "id": 2,
