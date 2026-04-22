@@ -3,30 +3,30 @@
     "id": 1,
     "title": "Bella, 2024",
     "description": "Portrait session in natural light",
-    "cover": "/p202/public/photos/bella1.jpg"
+    "cover": "/p202/photos/bella1.jpg"
   },
   {
     "id": 2,
     "title": "Janae, 2023",
     "description": "Studio lighting experiment",
-    "cover": "/p202/public/photos/janae1.jpeg"
+    "cover": "/p202/photos/janae1.jpeg"
   },
   {
     "id": 3,
     "title": "Ellie, 2022",
     "description": "Studio lighting experiment",
-    "cover": "/p202/public/photos/ellie1.JPG"
+    "cover": "/p202/photos/ellie1.JPG"
   },
   {
     "id": 4,
     "title": "Chloe, 2022",
     "description": "Studio lighting experiment",
-    "cover": "/p202/public/photos/chloe1.JPG"
+    "cover": "/p202/photos/chloe1.JPG"
   },
   {
     "id": 5,
     "title": "Diego, 2021",
     "description": "Studio lighting experiment",
-    "cover": "/p202/public/photos/diego1.jpg"
+    "cover": "/p202/photos/diego1.jpg"
   }
 ]
