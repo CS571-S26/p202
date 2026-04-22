@@ -5,6 +5,10 @@
   border-radius: 20px 20px 0 0 !important;
 }
 
+.photo {
+  width: 100%;
+}
+
 .card-title {
   font-family: "gastromond", sans-serif;
   letter-spacing: 1.5px !important;
@@ -22,4 +26,38 @@
   width: 100%;
   object-fit: cover;
   border-radius: 20px 20px 0 0 !important;
+}
+
+.photo-modal .modal-content {
+  color: #be1e2d !important;
+  background-color: #fdf3e3;
+  border-radius: 20px;
+  overflow: hidden;
+  
+}
+
+.close-btn {
+  position: absolute;
+	top: 15px;
+	right: 15px;
+	width: 60px; 
+	height: 60px;
+	cursor: pointer;
+  font-family: "gastromond", sans-serif !important;
+  color: #be1e2d  !important;
+  border: 2.5px solid #be1e2d !important; 
+  background-color: transparent !important;
+  border-radius: 20px !important;
+  font-size: 36px  !important; 
+  padding-top: 0 !important;
+}
+
+.close-btn:hover {
+  background-color: #be1e2d !important;
+  color: #fdf3e3 !important;
+}
+.close-btn:active {
+  background-color: #871520 !important;
+  color: #e0d7c9 !important;
+  transform: scale(.93) !important;
 }
