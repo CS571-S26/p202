@@ -1,0 +1,25 @@
+.photo-square {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0 !important;
+}
+
+.card-title {
+  font-family: "gastromond", sans-serif;
+  letter-spacing: 1.5px !important;
+  color: #fdf3e3 !important;
+  font-size: 25px !important; 
+}
+
+.card-style {
+  border-radius: 20px !important; 
+  margin: 1vw !important;
+  background: #be1e2d !important;
+}
+
+.design-photo {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0 !important;
+}

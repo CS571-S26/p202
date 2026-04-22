@@ -14,14 +14,19 @@ function Home() {
 						alt="Hello I'm Sal" 
 						style={{ width: "100%" }}
 					/>
-					<p style={{marginLeft:40, marginTop:'-4vw', marginBottom:40, fontSize:'3.5vw', lineHeight:1.2}}> 
+					<p style={{marginLeft:40, marginTop:'-4vw', marginBottom:40, fontSize:'2.4vw', lineHeight:1.2}}> 
 						I’m a Computer Science
 						and Graphic Design grad
 						from University of 
-						Wisconsin-Madison 
+						Wisconsin-Madison.
+					</p>
+					<p style={{marginLeft:40, marginTop:'2vw', marginBottom:40, fontSize:'2.4vw', lineHeight:1.2}}> 
+						Take a look around
+						to see what I'm all about!
 					</p>
 				</Col>
 				<Col style={{background:'#fdf3e3'}}>
+				
 				</Col>
 			</Row>
 		</Container>

@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "DBMS, 2025",
+    "description": "Group project building a DBMS in C++",
+    "cover": "/p202/code_photos/dbmscover.png"
+  },
+  {
+    "id": 2,
+    "title": "Graphics Town, 2025",
+    "description": "Interactive dessert-themed Graphics Town",
+    "cover": "/p202/code_photos/graphicstowncover.png"
+  },
+  {
+    "id": 3,
+    "title": "Feed the Fish, 2025",
+    "description": "Interactive 2D Game",
+    "cover": "/p202/code_photos/feedthefishcover.png"
+  }
+]

@@ -6,7 +6,6 @@ body {
   overflow-y: scroll;
   background-color: #fdf3e3;
 }
-
 .navbar {
   border-bottom: 25px solid #be1e2d;
   background-color: #fdf3e3;
@@ -26,4 +25,42 @@ body {
 .navbar .btn:hover {
   background-color: #be1e2d;
   color: #fdf3e3;
+}
+.navbar .btn:active {
+  background-color: #871520 !important;
+  color: #e0d7c9 !important;
+  transform: scale(.93) !important;
+}
+
+.contact-form .form-btn {
+  font-family: "gastromond", sans-serif;
+  letter-spacing: 1.5px;
+  color: #871520;
+  border: 2.5px solid #871520; 
+  background-color: #fdf3e3;
+  border-radius: 15px;
+  padding: 6px 20px;  
+  font-size: 20px; 
+}
+
+.contact-form .form-btn:hover {
+  background-color: #871520;
+  color: #fdf3e3;
+  border: 2.5px solid #871520;
+}
+
+.contact-form p,
+.contact-form label {
+  font-family: "gastromond", sans-serif;
+  letter-spacing: 1.5px;
+  color: #fdf3e3;
+  font-size: 20px; 
+}
+
+.contact-form input,
+.contact-form textarea {
+  border: 3.5px solid #871520;
+  border-radius: 10px;
+  padding: 8px;
+  background-color: #fdf3e3;
 }
