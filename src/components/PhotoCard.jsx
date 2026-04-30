@@ -1,7 +1,6 @@
 import { Card, Modal, Carousel, Container, Row, Col, Button} from 'react-bootstrap';
 import { useState } from "react";
 import '../pages/Pages.css';
-import XButton from '../assets/XButton.png'
 
 function PhotoCard(props) {
 	const [show, setShow] = useState(false);
@@ -25,7 +24,7 @@ function PhotoCard(props) {
 	<Modal.Body >
 		<Container fluid>
 			<Row>
-				<Col md={6}>
+				<Col md={6} className="d-flex h-100 text-col">
 					{props.carousel && props.carousel.length > 0 ? (
 						<Carousel>
 							{props.carousel.map((img, index) => (

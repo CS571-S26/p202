@@ -6,7 +6,9 @@
 }
 
 .photo {
-  width: 100%;
+    width: 30vw;
+    height: 80vh;
+    object-fit: cover;
 }
 
 .card-title {
@@ -22,10 +24,15 @@
   background: #be1e2d !important;
 }
 
-.design-photo {
+.design-cover {
   width: 100%;
   object-fit: cover;
   border-radius: 20px 20px 0 0 !important;
+}
+
+.design-photo {
+  width: 100%;
+  object-fit: cover;
 }
 
 .photo-modal .modal-content {
@@ -33,7 +40,11 @@
   background-color: #fdf3e3;
   border-radius: 20px;
   overflow: hidden;
-  
+}
+
+.code-square {
+  width: 100%;
+  object-fit: cover;
 }
 
 .close-btn {

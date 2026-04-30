@@ -35,7 +35,7 @@ function SallyLayout(props) {
                         photo
                         </Button>
 
-                        <Button as={Link} to="/*" variant="outline-light" className="me-2">
+                        <Button as={Link} to="/more" variant="outline-light" className="me-2">
                         more
                         </Button>
                     </Nav>

@@ -1,26 +1,38 @@
 [
-   {
+  {
+    "id": 5,
+    "title": "Akira Cafe Concept, 2026",
+    "description": "Concept Brand Identity for a local coffee shop.",
+    "cover": "/p202/design_photos/akiracafe.png"
+  },
+  {
     "id": 4,
     "title": "Slowpoke Poster, 2026",
-    "description": "10 minute design challenge",
+    "description": "10 minute design challenge poster.",
     "cover": "/p202/design_photos/SlowpokePoster.jpg"
   },
   {
     "id": 1,
     "title": "Mai's Deli Concept, 2026",
-    "description": "A brand campaign concept for a local restaraunt ",
+    "description": "A brand campaign concept for a local restaraunt.",
     "cover": "/p202/design_photos/maiscover.png"
   },
   {
     "id": 2,
     "title": "Subly App, 2025",
-    "description": "UX project solving local housing issues",
+    "description": "UX project solving local housing issues.",
     "cover": "/p202/design_photos/sublycover.png"
   },
   {
     "id": 3,
     "title": "Billie Eilish Concert Poster, 2024",
-    "description": "Concept Poster for Billie Eilish",
+    "description": "Concept Poster for Billie Eilish.",
     "cover": "/p202/design_photos/billieposter.png"
+  },
+   {
+    "id": 6,
+    "title": "Kohls Redesign Concept, 2026",
+    "description": "Concept Branding for Kohls Department Stores.",
+    "cover": "/p202/design_photos/kohls.png"
   }
 ]

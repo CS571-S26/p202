@@ -2,14 +2,14 @@ import { Card, Modal, Carousel, Container, Row, Col, Button} from 'react-bootstr
 import { useState } from "react";
 import '../pages/Pages.css';
 
-function CodeCard(props) {
+function DesignCard(props) {
 	const [show, setShow] = useState(false);
   	const handleClose = () => setShow(false);
 	const handleShow = () => setShow(true);
 
 	return <>
 		<Card className="card-style" onClick={handleShow}>
-			<Card.Img src={props.cover} className="photo-square" alt={props.description} />
+			<Card.Img src={props.cover} className="design-cover" alt={props.description} />
 			<Card.Body>
 			<Card.Title>{props.title}</Card.Title>
 			</Card.Body>
@@ -25,8 +25,9 @@ function CodeCard(props) {
 		<Container fluid>
 			<Row>
 				<Col md={6}>
-					<Card.Img src={props.cover} className="code-square" alt={props.description} />
+					<Card.Img src={props.cover} className="design-photo"  alt={props.description} />
 				</Col>
+
 				<Col md={5} className="d-flex flex-column justify-content-center">
 					<Button
 						alt="Close"
@@ -45,4 +46,4 @@ function CodeCard(props) {
 	</>
 }
 
-export default CodeCard;
+export default DesignCard;

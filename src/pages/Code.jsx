@@ -1,19 +1,16 @@
-import { Card, Button, Row, Col, Container } from 'react-bootstrap';
+import { Card, Row, Col, Container } from 'react-bootstrap';
 import './Pages.css';
-import codedata from "../code.json";
+import code from "../code.json";
+import CodeCard from '../components/CodeCard';
 
 function Code() {
 	return <>
-		 <Container fluid>
+		<Container fluid>
+			<p style={{margin:15}}> I'm a software engineer focusing on Robotic Process Automation and Web Development. Click on a project to learn more! </p>
 			<Row>
-				{codedata.map(code => (
+				{code.map(code => (
 					<Col xs={6} md={4} lg={3} key={code.id}>
-					<Card className="card-style">
-						<Card.Img src={code.cover} className="photo-square" />
-						<Card.Body>
-						<Card.Title>{code.title}</Card.Title>
-						</Card.Body>
-					</Card>
+						<CodeCard {...code} />
 					</Col>
 				))}
 			</Row>

@@ -7,6 +7,7 @@ function Photography() {
 
 	return (
 	  <Container fluid>
+		<p style={{margin:15}}> I'm a photographer focusing on senior pictures, graduation photots, and headshots. Click on a project to learn more! </p>
 	    <Row>
 			{photos.map(photo => (
 				<Col xs={6} md={4} lg={3} key={photo.id}>

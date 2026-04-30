@@ -6,6 +6,12 @@
     "cover": "/p202/code_photos/dbmscover.png"
   },
   {
+    "id": 4,
+    "title": "Email Bot, 2025",
+    "description": "Robotic Process Automation flow to sort emails into a legacy CMS using UI selectors. Sorts 3000 emails / month.",
+    "cover": "/p202/code_photos/image.png"
+  },
+  {
     "id": 2,
     "title": "Graphics Town, 2025",
     "description": "Interactive dessert-themed Graphics Town",

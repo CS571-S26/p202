@@ -1,19 +1,16 @@
 import { Card, Row, Col, Container } from 'react-bootstrap';
 import './Pages.css';
 import designdata from "../designdata.json";
+import DesignCard from '../components/DesignCard';
 
 function Design() {
 	return <>
 		<Container fluid>
+			<p style={{margin:15}}> I'm a graphic designer focusing on UI and Web Development. Click on a project to learn more! </p>
 			<Row>
 				{designdata.map(design => (
 					<Col xs={6} md={4} lg={3} key={design.id}>
-					<Card className="card-style" >
-						<Card.Img src={design.cover} className="design-photo" />
-						<Card.Body>
-						<Card.Title>{design.title}</Card.Title>
-						</Card.Body>
-					</Card>
+						<DesignCard {...design} />
 					</Col>
 				))}
 			</Row>
